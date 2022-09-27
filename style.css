@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    color: white;
+    padding: 20px 40px;
+}
+
+nav h1{
+    font-size: 36px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li{
+    padding-left: 40px;
+}
+
+.hello{
+    margin-top: 100px;
+    padding: 0 80px;
+}
+
+.hello h1{
+    font-size: 120px;
+}
+
+.hello h1 span{
+    color: red;
+}
+
+.hello h2{
+    font-size: 60px;
+}
+
+.pelajaran{
+    margin-top: 100px;
+    padding: 0 80px;
+}
+
+.pelajaran h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.pelajaran hr{
+    margin-bottom: 50px;
+}
+
+.pelajaran .daftar-pelajaran{
+    display: flex;
+}
+
+.pelajaran .daftar-pelajaran .item-pelajaran{
+    margin-right: 40px;
+}
+
+.pelajaran .daftar-pelajaran .item-pelajaran p{
+    font-size: 24;
+    margin-top: 20px;}
+    
